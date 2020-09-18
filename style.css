@@ -13,8 +13,34 @@ h1 {
     background-color: white;
     color: black;
     min-width: 300px;
+    max-width: 500px;
     padding: 20px;
     border-radius: 25px;
     margin: auto; 
+    line-height: 1.5em;
 }
 
+h1 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    max-width: 250px;
+    padding-left: 3em;
+}
+
+#result {
+    padding-left: 3em;
+} 
+
+#button {
+    padding-left: 3em;
+}
+
+#principal, #rate, #years {
+    display: inline;
+    float: none;
+}
