@@ -8,8 +8,9 @@ function compute() {
     var currentYear = d.getFullYear();
     var newYear = parseInt(currentYear) + parseInt(years);
 
-    document.getElementById("result").innerHTML = "If you deposit " + principal + ",<br>at an interest rate of " + rate + ".<br>You will receive an amount of " + interest + ",<br>in the year " + newYear + ".";
+    document.getElementById("result").innerHTML = "<br>If you deposit <mark>" + principal + "</mark>,<br>at an interest rate of <mark>" + rate + "</mark>.<br>You will receive an amount of <mark>" + interest + "</mark>,<br>in the year <mark>" + newYear + "</mark>.";
 }
+
 
 function slideVal() {
     var val = document.getElementById("rate").value;
